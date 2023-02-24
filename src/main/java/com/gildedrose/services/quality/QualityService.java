@@ -16,7 +16,7 @@ public final class QualityService  {
             return backstageItemService.updateQualityForBackstageItem(item);
         } else if (AGED_BRIE.equals(item.name)) {
             return agedBrieItemService.updateQualityForAgedBrieItem(item);
-        } if (CONJURED.equals(item.name)) {
+        } else if (CONJURED.equals(item.name)) {
             return conjuredItemService.updateQualityConjuredItem(item);
         } else if (!SULFURAS.equals(item.name)) {
             return regularItemService.updateQualityForRegularItem(item);
